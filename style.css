@@ -125,11 +125,15 @@ section .equal-columns__col {
     align-items: flex-start;
 }
 
-.equal-columns__text h2,
+.equal-columns__text h2 {
+    color: hsl(233, 6%, 71%);
+}
+
 p {
-    color: hsl(233, 8%, 79%);
+    color: hsl(236, 15%, 55%);
     margin: 0;
 }
+
 
 .equal-columns__text h2 {
     font-size: 1.8rem;
@@ -166,7 +170,7 @@ p {
     }
     .header li {
         list-style: none;
-        color: hsl(237, 18%, 59%);
+        color: hsl(236, 15%, 55%);
     }
 }
 
